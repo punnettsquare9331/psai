@@ -1,0 +1,22 @@
+/* Footer Styles */
+.footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  font-size: 0.875rem; /* Smaller font size */
+  width: 100%;
+  padding: 8px 0; /* Reduced padding */
+}
+
+/* Other Styles */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(270deg, #d66ad4, #6fe5cb);
+  background-size: 200% 200%;
+  animation: gradient-move 8s infinite;
+  color: #fff;
+  padding: 20px;
+}
